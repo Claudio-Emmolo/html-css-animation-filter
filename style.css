@@ -57,6 +57,7 @@
 
 .ex-5-square:active{
     transform: scale(.5);
+    color: blue;
 }
 
 .ex-5-square:hover{
@@ -66,6 +67,21 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    transition: all 1.5s;
+}
+
+.ex-6-img{
+    transition: none;
+}
+
+.ex-6-img:hover,
+.ex-7-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-8-img:hover{
+    filter: grayscale(.5) sepia(.5);
+    border-radius: 2rem;
 }
 
 .ex-9-img {
