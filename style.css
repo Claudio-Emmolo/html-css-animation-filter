@@ -98,7 +98,24 @@
 
 .ex-10-icon {
     font-size: 60px;
+
+    animation: 1s rotate-circle-loop infinite linear;
 }
+
+@keyframes rotate-circle-loop {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+
+}
+
+.ex-10-icon{
+
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
